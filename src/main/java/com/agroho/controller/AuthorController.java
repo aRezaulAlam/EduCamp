@@ -110,7 +110,7 @@ spring.datasource.driverClassName=org.postgresql.Driver
 
 spring.jpa.database-platform=org.hibernate.dialect.PostgreSQLDialect
 spring.jpa.generate-ddl=true
-
+web: java -Dserver.port=$PORT -jar target/demo-0.0.1-SNAPSHOT.jar
 
 
 */
